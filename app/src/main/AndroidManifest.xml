@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.informatika.renisartika_19100013_parkir">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="todolist"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.informatika.renisartika_19100013_parkir.SplashScreen"
+            android:label="Parkir"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.informatika.renisartika_19100013_parkir.RegisterActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.renisartika_19100013_parkir.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.renisartika_19100013_parkir.UpdateDataActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.renisartika_19100013_parkir.InsertDataActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.informatika.renisartika_19100013_parkir.MainActivity"
+            android:label="@string/title_activity_login" />
+    </application>
+
+</manifest>
